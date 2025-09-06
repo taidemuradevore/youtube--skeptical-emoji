@@ -1,0 +1,18 @@
+{
+  "name": "Skeptical Emoji",
+  "description": "This displays a skeptical emoji when you open YouTube",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["notifications", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "128": "skeptical.png"
+    }
+  },
+  "icons": {
+    "128": "skeptical.png"
+  }
+}
